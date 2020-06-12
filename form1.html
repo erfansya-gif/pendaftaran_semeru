@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>send your comment</title>
+	<link rel="stylesheet" type="text/css" href="form comment.css">
+  <link rel="shortcut icon" type="image/png" href="img/logo.png">
+  <style></style>
+</head>
+
+<body class="body">
+  
+<!-- form komentar -->
+<nav>
+ <div class="lord">
+    <img class="logo" src="img/logo.png">
+    <div class="menu">
+      <ul>
+        <li><a href="halaman pertama.php" class="active">Home</a></li>
+        <li><a href="index.php">pendaftaran</a></li>
+        <li><a href="halaman pertama.php#Biodata">Semeru</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+ </div>
+  </nav>
+
+  <section id="form">
+      <div class="contact-us">
+          
+            <h1>Contact-Us</h1>
+     <div class="container">
+
+         <div class="form">
+           <div class="form-items">
+              <form name="form1" method="POST" action="comment.php">
+             <input type="text" placeholder="username" class="input" name="username" size="12">
+           </div>
+           <div class="form-items">
+             <input type="text" placeholder="email" class="input" name="email" size="50">
+           </div>
+           <div class="form-items">
+             <textarea  cols="30" class="input" rows="10" placeholder="Message....." type="text" name="pesan"></textarea>
+           </div>
+           <div class="btn">
+            <input type="submit" class="submit" value="submit" onclick="validasi();" style="font-size: 20px; background-color: transparent;border-color: transparent;">
+           </div>
+            <div class="btn" style="margin-top: 10px">
+             <a href="index.html"><p>kembali</p></a>
+           </div>
+         </form>
+         </div>
+         
+       </div>
+     </div>
+  </section>
+<!-- end form komentar -->
+
+</html>

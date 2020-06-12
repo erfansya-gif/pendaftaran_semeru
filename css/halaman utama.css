@@ -1,0 +1,302 @@
+/* HEADER */
+.ipm {
+    margin: 0px;
+    padding: 0px;
+    font-family: century gothic;
+}
+.logo {
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+}
+.menu{
+    max-width: 1200px;
+    margin: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/gunung-semeru.jpg);
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s;
+}
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+ul li.active a {
+    background-color: white;
+    color:black;
+}
+.title{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1 {
+    color: white;
+    font-size: 34px;
+    text-decoration: underline;
+}
+/* END HEADER */
+
+/* TENTANG SEMERU */
+#header div {
+    text-align: center;
+    margin-top:10%;
+}
+#header div a {
+    text-decoration: none;
+    background-color: aliceblue;
+    padding:10px 10px 10px 10px;
+    border-radius: 20px;
+    width: 150px !important;
+}
+#Biodata {
+    position: relative;
+    top:-270px;
+    margin:0;
+    padding: 60px;
+    background-color:aliceblue;
+}
+#Biodata div {
+    text-align: center;
+}
+.biodata {
+    margin-top: 20% !important;
+}
+
+/* VIDEOS */
+#galeri {
+    position: relative;
+    top: -275px;
+    margin:0;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+#galeri hr {
+    width: 40%;
+    margin-bottom: 50px;
+}
+#galeri div {
+    display: flex;
+}
+.galeri-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.galeri-item div {
+    display: flex;
+    flex-direction: column;
+}
+/* END VIDEOS */
+
+/* BODY TENGAH */
+#motivasi {
+    position: relative;
+    top: -180px;
+    padding: 100px;
+    background-image: url(../img/erpan.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#motivasi h1 {
+    color: white;
+    text-align: center;
+}
+/* END BODY TENGAH */
+
+/* BOTTOM */
+#footer {
+    position: relative;
+    background-color: white;
+    top:250px;
+    display: flex;
+    padding:60px;
+    padding-bottom: 30px;
+    margin-top: -280px ;
+}
+.footer-item {
+    flex:1;
+}
+.footer-item h2 {
+    text-align: left;
+    margin-left: 95px !important;
+}
+.footer-item div  {
+    margin-left : 25%;
+}
+.footer-item ul {
+    margin: 0;
+    padding:0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+ 
+.footer-item a h3 {
+    border-radius: 20px;
+    padding: 10px 10px 10px 70px;
+    width: 145px !important;
+    background-color: aliceblue;
+    margin-left: 90px;
+
+}
+/* END BOTTOM */
+
+/* FORM KOMENTAR */
+.body{
+	background-image: url(img/erpan.jpg);
+	background-attachment: fixed;
+    background-size: cove
+}
+
+#form .contact-us{
+	width: 350px;
+	background: #76cf02;
+	padding: 50px;
+	margin: 100px auto;
+	border-radius: 30px;
+    padding-bottom: 47px;
+    
+}
+
+#form .contact-us h1{
+	color: #333;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+#form .form .form-items,
+.form{
+	width: 100%;
+}
+
+#form .form .form-items .input{
+	width: 100%;
+	margin-bottom: 12px;
+	padding: 15px 40px;
+	box-sizing: border-box;
+	background: #fff;
+	border: 0;
+	outline: none;
+	border-radius: 20px;
+}
+#form .form .form-items .input .message{
+	height: 125px;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	padding: 15px;
+}
+#form .contact-us .btn{
+	background: #018dd1;
+	text-align: center;
+	color: #fff;
+	padding: 12px;
+	width: 150px;
+	margin-left: 88px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.btn a {
+	text-decoration: none;
+}
+.btn a p{
+	font-size: 20px;
+	color: #000;
+}
+.lord{
+    position: relative;
+    bottom: 100px;
+}
+/* END FORM KOMENTAR */
+
+#t01 {
+    position: relative;
+    top:-75px;
+    
+}
+#t01 div {
+    text-align: center;
+}
+#t012 {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 675px;  
+}
+table {
+    width:50%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+table#t012 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t012 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t012 th {
+    background-color: black;
+    color: white;
+}
+#masuk {
+    position: relative;
+    margin-top: -180px;
+    padding: 20px 0px 0px 0px;
+}
+#masuk h2 {
+    margin-left: 200px;
+}
+#masuk2 {
+    position: relative;
+    margin-left: 650px;
+    top: -70px;
+}
+#k {
+    position: relative;
+    margin:0;
+    background-color:aliceblue;
+}
